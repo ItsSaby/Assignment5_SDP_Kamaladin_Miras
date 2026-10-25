@@ -1,7 +1,5 @@
 # Strategy Pattern Calculator
 
-A Java 17 console calculator demonstrating the Strategy behavioral design pattern.
-
 ## Features
 - Addition, subtraction, multiplication, and division strategies.
 - `Calculator` is the Context and delegates calculation to the selected strategy.
@@ -24,15 +22,6 @@ strategy-calculator/
 │   └── Strategy_Calculator_Report.docx
 ├── UML_Strategy_Calculator.png
 └── README.md
-```
-
-## Run
-Requires JDK 17 or later.
-
-From the project root:
-```bash
-javac -d out src/main/java/calculator/*.java
-java -cp out calculator.Main
 ```
 
 ## Example
